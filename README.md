@@ -54,10 +54,10 @@ Then after deploy, Enter the address of your BatchedPayments contract in src/con
 
 ## HOW TO TEST
 1. Point a EIP918 tokenminer at your pool using http://localhost:8080   (make sure firewall allows this port)
-2. Start the server with 'npm run build' and 'npm run server staging' to put it into staging test mode
+2. Start the server with 'npm run build' and 'npm run pool staging' to put it into staging test mode
 3. View website interface at http://localhost (Feel free to set up nginx/apache to serve the static files in /dist)
 
-You should see that the miner is able to successfully submit shares to the pool when the share difficulty is set to a low value such as 100 and the pool is in 'staging mode'.  Then you can run the pool on mainnet using 'npm run server'.
+You should see that the miner is able to successfully submit shares to the pool when the share difficulty is set to a low value such as 100 and the pool is in 'staging mode'.  Then you can run the pool on mainnet using 'npm run pool'.
 
 
 ## Installing MongoDB
