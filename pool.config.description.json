@@ -4,7 +4,7 @@
 
   "staging":{
     "poolName": "TestServer",
-    "poolUrl": "http://yourpoolhereexample.com or your ip like http:48.103.74.89 or http:48.101.76.89:expressport",
+    "poolUrl": "http://yourpoolhereexample.com or your ip like http://48.103.74.89 or http://48.101.76.89:expressport",
     "poolEnv":"staging",
     "MainPeerPoolUrl": "http://eticapool.com or any other etica pool url",
     "apiConfig":{
@@ -47,7 +47,7 @@
   },
   "production":{
     "poolName": "TestServer",
-    "poolUrl": "http://yourpoolhereexample.com or your ip like http:48.103.74.89 or http:48.101.76.89:expressport",
+    "poolUrl": "http://yourpoolhereexample.com or your ip like http://48.103.74.89 or http://48.101.76.89:expressport",
     "MainPeerPoolUrl": "http://eticapool.com  or any other etica pool url",
     "poolEnv":"production",
     "apiConfig":{
